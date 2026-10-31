@@ -109,7 +109,7 @@ order by order_month;
 
 **Chart:**
 
-![Monthly orders, Jan 2017 to Aug 2018](charts/q1_order_per_month_chart.png)
+![Monthly orders, Jan 2017 to Aug 2018](charts/q1_order_per_month_chart.PNG)
 
 **Finding:** Monthly orders grew from 800 in January 2017 to a peak of 7,544 in November 2017, then levelled off at roughly 6,100 to 7,300 a month through August 2018. The November 2017 spike is likely a Black Friday effect (not confirmed). Data for September 2016 to December 2016 and for September and October 2018 is very thin (16 and 4 orders in the last two months), because the dataset starts and ends partway through those periods, so the trend should be read from January 2017 to August 2018.
 
@@ -195,7 +195,7 @@ Total revenue: **13,494,400.74** (about 13.5 million).
 
 **Chart:**
 
-![Monthly revenue](charts/q2_monthly_revenue_chart.png)
+![Monthly revenue](charts/q2_monthly_revenue_chart.PNG)
 
 **Finding:** Monthly revenue grew from about 120,000 in January 2017 to a peak of about 1.0 million in November 2017, the only month over 1 million and the same month as the order spike. Through early 2018 it stayed just under 1 million a month (945,000 to 994,000 from January to May), then fell about 13% from May to June 2018 (992,872 to 863,266), slightly more than the 10% fall in orders, and stayed between about 850,000 and 880,000 through August. September 2018 is a partial month. Across the whole period, total revenue came to about 13.5 million.
 
@@ -238,7 +238,7 @@ limit 10;
 
 **Chart:**
 
-![Top 10 product categories by revenue](charts/q3_top10_product_category_by_revenue_chart.png)
+![Top 10 product categories by revenue](charts/q3_top10_product_category_by_revenue_chart.PNG)
 
 **Finding:** Three categories each earned over 1 million: health_beauty (1,255,695), watches_gifts (1,198,185) and bed_bath_table (1,035,964), together about 26% of total revenue. The top 10 categories add up to about 8.4 million, roughly 62% of the 13.5 million total, so revenue is concentrated in a small number of categories.
 
@@ -398,7 +398,7 @@ group by delivery_status;
 
 **Chart:**
 
-![Average review score, late vs on-time deliveries](charts/q7_avg_review_score_chart.png)
+![Average review score, late vs on-time deliveries](charts/q7_avg_review_score_chart.PNG)
 
 ---
 
